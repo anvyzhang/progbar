@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'm@anvy.me'
   s.files       = ["lib/progbar.rb"]
   s.homepage    =
-    'http://rubygems.org/gems/progbar'
+    'https://github.com/anvyzhang/progbar'
   s.license       = 'MIT'
 end
