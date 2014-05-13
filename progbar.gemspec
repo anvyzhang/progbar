@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'progbar'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2014-05-13'
   s.summary     = "Print progress bar for array iteration"
   s.description = "Print progress bar for array iteration"
