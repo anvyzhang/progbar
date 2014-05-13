@@ -11,16 +11,18 @@ class Array
         time_left_graceful = Time.at(time_left).utc.strftime("%H:%M:%S")
         if time_left > 86400
           time_left_graceful = res.split(":")
-          time_left_graceful[0] = (time_left_graceful[0].to_i + days*24).to_s
+          time_left_graceful[0] = (time_left_graceful[0].to_i + days * 24).to_s
           time_left_graceful = time_left_graceful.join(":")
         end
         print "\r"
-        print "[" + (["#"] * cur).join + (["-"] * (100-cur)).join + "] #{cur}% [#{time_left_graceful} left]"
+        print "[" << (["#"] * cur).join << (["-"] * (100-cur)).join << "] #{cur}% [#{time_left_graceful} left]"
         last_flush = Time.now
       end
-      block.call(element) if block
+      block.call element if block
     }
     puts "\n"
     "Done."
   end
 end
+
+([1] * 10).prog_each{|x| sleep 1}
