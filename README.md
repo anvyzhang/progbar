@@ -1,15 +1,15 @@
-= Progbar
+Progbar
 =======
 
 Progress bar for array iteration.
 
-== Features
+## Features
 
 Print a progress bar when do a iterate on a ruby array using `prog_each`
 
-== Usage
+## Usage
 
-=== Install
+### Install
 
 ```bash
 gem install progbar
@@ -20,7 +20,6 @@ or add
 
 ```
 gem 'progbar'
-
 ```
 
 to your Gemfile and `bundle install`
@@ -34,5 +33,5 @@ to your Gemfile and `bundle install`
 [####################--------------------------------------------------------------------------------] 20% [00:00:04 left]
 ```
 
-== Copyright
+## Copyright
 MIT-LICENSE
