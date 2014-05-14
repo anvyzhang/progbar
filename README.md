@@ -1,4 +1,4 @@
-Progbar
+Progbar [![Gem Version](https://badge.fury.io/rb/progbar.png)](http://badge.fury.io/rb/progbar)
 =======
 
 Progress bar for array iteration.
