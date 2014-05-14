@@ -24,5 +24,3 @@ class Array
     "Done."
   end
 end
-
-([1] * 10).prog_each{|x| sleep 1}
